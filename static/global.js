@@ -30,15 +30,15 @@ let pages = [
 let nav = document.createElement("nav");
 document.body.prepend(nav);
 
-document.body.insertAdjacentHTML("afterbegin", `
-    <label class="color-scheme">
-        Theme:
-        <select>
-            <option value="light">Light</option>
-            <option value="dark">Dark</option>
-            <option value="auto">Automatic</option>
-        </select>
-    </label>`
-);
+// document.body.insertAdjacentHTML("afterbegin", `
+//     <label class="color-scheme">
+//         Theme:
+//         <select>
+//             <option value="light">Light</option>
+//             <option value="dark">Dark</option>
+//             <option value="auto">Automatic</option>
+//         </select>
+//     </label>`
+// );
 
 // TODO terminar
